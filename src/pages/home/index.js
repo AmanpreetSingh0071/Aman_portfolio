@@ -4,6 +4,9 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import { About } from "../about"; // ✅ Import About Section
+import { Portfolio } from "../portfolio"; // ✅ Import Portfolio Section
+import { ContactUs } from "../contact"; // ✅ Import Contact Section
 
 export const Home = () => {
   return (
@@ -11,7 +14,7 @@ export const Home = () => {
       <section id="home" className="home">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {meta.title}</title>
+          <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
@@ -61,6 +64,12 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ✅ Add Other Sections Below */}
+      <About />  
+      <Portfolio />  
+      <ContactUs />  
+      
     </HelmetProvider>
   );
 };
