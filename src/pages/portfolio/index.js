@@ -10,27 +10,44 @@ export const Portfolio = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Portfolio | {meta.title} </title>{" "}
+          <title> Portfolio | {meta.title} </title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
+            <h1 className="display-4 mb-4"> Portfolio </h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
-                </div>
+          {dataportfolio.map((data, i) => (
+            <div key={i} className="po_item">
+              {/* Check if it's a video (embed) or an image */}
+              {data.embed ? (
+                <iframe
+                  width="100%"
+                  height="250"
+                  src={data.embed}
+                  title="YouTube Video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              ) : (
+                <img src={data.img} alt="Project Thumbnail" />
+              )}
+              
+              {/* Description and link */}
+              <div className="content">
+                <p>{data.description}</p>
+                {data.link && (
+                  <a href={data.link} target="_blank" rel="noopener noreferrer">
+                    View Project
+                  </a>
+                )}
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </Container>
     </HelmetProvider>

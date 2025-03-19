@@ -1,4 +1,4 @@
-    const logotext = "AMANPREET";
+const logotext = "AMANPREET";
     const meta = {
         title: "Amanpreet Ahluwalia",
         description: "I’m Amanpreet Ahluwalia, an AI/ML Engineer specializing in AI-driven solutions, financial analytics, and predictive modeling.",
@@ -11,7 +11,8 @@
             second: "Developing AI-powered solutions",
             third: "Optimizing business processes with AI",
         },
-        description: "AI enthusiast with 5+ years of IT experience in system integrations, customizations, and automation. Specialized in developing AI/ML models for finance, cryptographic AI, and robotics optimization."
+        description: "AI enthusiast with 5+ years of IT experience in system integrations, customizations, and automation. Specialized in developing AI/ML models for finance, cryptographic AI, and robotics optimization.",
+        your_img_url: "https://github.com/AmanpreetSingh0071.png",
     };
 
     const dataabout = {
@@ -73,9 +74,8 @@
             link: "https://github.com/AmanpreetSingh0071/financial-chatbot",
         },
         {
-            img: "https://github.com/AmanpreetSingh0071.png",
-            description: "Autonomous Vehicle Simulation - Implemented real-time obstacle avoidance using AI sensors.",
-            link: "https://github.com/AmanpreetSingh0071/autonomous-vehicle",
+            embed: "https://www.youtube.com/embed/7SVjK-2S-iE?si=aS_T6ovORD1vYZog",// Thumbnail for the video
+            description:  "Autonomous Vehicle Simulation - Implemented real-time obstacle avoidance using AI sensors.",
         },
     ];
 

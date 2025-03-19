@@ -25,15 +25,24 @@
     max-width: 100%;
 }
 
+/* Ensure iframe (YouTube videos) remain clickable */
+.po_item iframe {
+    pointer-events: auto !important;
+    position: relative;
+    z-index: 10 !important; /* High z-index ensures iframe is clickable */
+    width: 100%;
+    height: 250px;
+    border-radius: 5px; /* Optional: Rounds video corners */
+}
+
+/* Overlay Content (Only Applies to Images) */
 .po_item .content {
     position: absolute;
-    height: 0;
-    width: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--overlay-color);
-    z-index: 1;
+    z-index: 2;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,36 +52,40 @@
     transition: 0.3s ease-in-out;
     opacity: 0;
     border: 1px solid black;
+    pointer-events: none; /* Prevents overlay from blocking interactions */
 }
 
-.po_item .content {
-    opacity: 0;
-    transition-delay: 1s;
-    transition: 0.3s ease;
-    font-size: 20px;
+/* Overlay applies only to images, NOT videos */
+.po_item img + .content {
+    pointer-events: auto;
 }
 
-.po_item:hover {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+/* Prevent overlay from affecting YouTube videos */
+.po_item iframe + .content {
+    display: none !important;
 }
 
-.po_item:hover .content {
+/* Overlay appears when hovering over images */
+.po_item:hover img + .content {
     height: calc(100% - 30px);
     width: calc(100% - 30px);
-    opacity: 1;
-}
-
-.po_item:hover .content {
     opacity: 1;
     color: var(--secondary-color);
 }
 
+/* Ensure hover effects do NOT interfere with videos */
+.po_item:hover iframe {
+    z-index: 10 !important;
+}
+
+/* Style for the "View Project" Button */
 .po_item .content a {
     background: var(--bg-color);
     border: solid 1px var(--text-color);
     padding: 4px 8px;
     text-align: center;
     font-size: 1rem;
+    pointer-events: auto; /* Ensure button is clickable */
 }
 
 .po_item .content a:hover {
