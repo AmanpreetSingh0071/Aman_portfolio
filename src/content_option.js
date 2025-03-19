@@ -69,16 +69,15 @@ const logotext = "AMANPREET";
             link: "https://github.com/AmanpreetSingh0071/weather-forecasting",
         },
         {
-            img: "https://github.com/AmanpreetSingh0071.png",
-            description: "Financial Chatbot - AI-driven chatbot analyzing 10-K reports for financial insights.",
-            link: "https://github.com/AmanpreetSingh0071/financial-chatbot",
+            embed: "https://www.youtube.com/embed/7SVjK-2S-iE?si=aS_T6ovORD1vYZog",
+            description: "Autonomous Vehicle Simulation - Implemented real-time obstacle avoidance using AI sensors.",
         },
         {
-            embed: "https://www.youtube.com/embed/7SVjK-2S-iE?si=aS_T6ovORD1vYZog",// Thumbnail for the video
-            description:  "Autonomous Vehicle Simulation - Implemented real-time obstacle avoidance using AI sensors.",
+            embed: "https://www.youtube.com/embed/4qVD9D7ftjs?si=DlSBM8bLoshV_6dO",
+            description: "Disease Simulation in Netlogo.",
         },
     ];
-
+    
     const contactConfig = {
         YOUR_EMAIL: "amanpreet.m.ahluwalia@gmail.com",
         YOUR_FONE: "+44 7823705602",

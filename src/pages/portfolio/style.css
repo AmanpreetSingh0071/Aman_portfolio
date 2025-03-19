@@ -1,17 +1,18 @@
 .po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
-    column-gap: 4rem;
-    -moz-column-gap: 4rem;
-    -webkit-column-gap: 4rem;
+    display: flex;  /* Forces left-to-right order */
+    flex-wrap: wrap; /* Ensures items wrap when necessary */
+    gap: 2rem; /* Adds space between items */
+    justify-content: flex-start; /* Ensures correct left-to-right order */
+    align-items: flex-start; /* Keeps alignment consistent */
 }
 
+/* Each portfolio item should be in a proper row-wise structure */
 .po_item {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: calc(50% - 2rem); /* Ensures 2 items per row */
+    max-width: 400px; /* Keeps items neat */
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 0.5rem;
     position: relative;
     background: var(--secondary-color);
     padding: 6px;
@@ -21,6 +22,7 @@
     min-height: 300px;
 }
 
+/* Ensure images display correctly */
 .po_item img {
     max-width: 100%;
 }
