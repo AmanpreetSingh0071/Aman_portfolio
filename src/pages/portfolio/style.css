@@ -20,6 +20,7 @@
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
+    overflow: visible !important; /* Prevents video cropping */
 }
 
 /* Ensure images display correctly */
@@ -27,7 +28,7 @@
     max-width: 100%;
 }
 
-/* Ensure iframe (YouTube videos) remain clickable */
+/* Ensure iframe (YouTube videos) remain clickable and fullscreen works */
 .po_item iframe {
     pointer-events: auto !important;
     position: relative;
@@ -35,6 +36,8 @@
     width: 100%;
     height: 250px;
     border-radius: 5px; /* Optional: Rounds video corners */
+    touch-action: manipulation !important; /* Fixes Android touch issues */
+    cursor: pointer;
 }
 
 /* Overlay Content (Only Applies to Images) */
@@ -54,7 +57,7 @@
     transition: 0.3s ease-in-out;
     opacity: 0;
     border: 1px solid black;
-    pointer-events: none; /* Prevents overlay from blocking interactions */
+    pointer-events: none !important; /* Prevents overlay from blocking interactions */
 }
 
 /* Overlay applies only to images, NOT videos */

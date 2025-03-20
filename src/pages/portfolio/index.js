@@ -30,8 +30,12 @@ export const Portfolio = () => {
                   src={data.embed}
                   title="YouTube Video"
                   frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                   allowFullScreen
+                  webkitAllowFullScreen
+                  mozAllowFullScreen
+                  allow="fullscreen"
+                  onClick={(e) => e.stopPropagation()}
                 ></iframe>
               ) : (
                 <img src={data.img} alt="Project Thumbnail" />
