@@ -69,6 +69,11 @@ const logotext = "AMANPREET";
             link: "https://github.com/AmanpreetSingh0071/weather-forecasting",
         },
         {
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-20%20233833.png?raw=true", // Replace with an actual screenshot URL
+            description: "AI Dashboard App - An interactive Streamlit app for data visualization and AI model insights.",
+            link: "https://ipredictionpremium-aman007.streamlit.app/", // Replace with your Streamlit app URL
+        },
+        {
             embed: "https://www.youtube.com/embed/7SVjK-2S-iE?si=aS_T6ovORD1vYZog",
             description: "Autonomous Vehicle Simulation - Implemented real-time obstacle avoidance using AI sensors.",
         },
