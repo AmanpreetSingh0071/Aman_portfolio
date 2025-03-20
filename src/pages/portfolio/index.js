@@ -27,15 +27,12 @@ export const Portfolio = () => {
                 <iframe
                   width="100%"
                   height="250"
-                  src={data.embed}
+                  src={data.embed + "?playsinline=0"}
                   title="YouTube Video"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                   allowFullScreen
-                  webkitAllowFullScreen
-                  mozAllowFullScreen
-                  allow="fullscreen"
-                  onClick={(e) => e.stopPropagation()}
+                  style={{ touchAction: "manipulation", cursor: "pointer" }}
                 ></iframe>
               ) : (
                 <img src={data.img} alt="Project Thumbnail" />
