@@ -59,14 +59,14 @@ const logotext = "AMANPREET";
 
     const dataportfolio = [
         {
-            img: "https://github.com/AmanpreetSingh0071.png",
-            description: "Weather Forecasting Model - Built an ML model predicting weather patterns with 85% accuracy.",
-            link: "https://github.com/AmanpreetSingh0071/weather-forecasting",
-        },
-        {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-23%20111226.png?raw=true", // Replace with an actual screenshot URL
             description: "PDF Data Extraction using AI - Automated structured data extraction reducing manual effort by 60%.",
             link: "https://chat-with-your-pdfs-aman-007.streamlit.app/",
+        },
+        {
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-23%20214731.jpg?raw=true", // Replace with an actual screenshot URL
+            description: "Weather Forecasting Model - Built an ML model predicting weather patterns with 85% accuracy.",
+            link: "https://predict-energy-aman-007.streamlit.app/",
         },
         {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-20%20233833.png?raw=true", // Replace with an actual screenshot URL
