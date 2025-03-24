@@ -1,7 +1,7 @@
 const logotext = "AMANPREET";
     const meta = {
         title: "Amanpreet Ahluwalia",
-        description: "I’m Amanpreet Ahluwalia, an AI/ML Engineer specializing in AI-driven solutions, financial analytics, and predictive modeling.",
+        description: "I’m Amanpreet Ahluwalia, an AI/ML Engineer specialising in AI-driven solutions, financial analytics and predictive modeling.",
     };
 
     const introdata = {
@@ -9,15 +9,15 @@ const logotext = "AMANPREET";
         animated: {
             first: "AI & ML Enthusiast",
             second: "Developing AI-powered solutions",
-            third: "Optimizing business processes with AI",
+            third: "Optimising business processes with AI",
         },
-        description: "AI enthusiast with 5+ years of IT experience in system integrations, customizations, and automation. Specialized in developing AI/ML models for finance, cryptographic AI, and robotics optimization.",
+        description: "AI enthusiast with 5+ years of IT experience in system integrations, customisations and automation. Specialised in developing AI/ML models for finance, cryptographic AI and robotics optimisation.",
         your_img_url: "https://github.com/AmanpreetSingh0071.png",
     };
 
     const dataabout = {
         title: "About Me",
-        aboutme: "Experienced AI/ML Engineer with a background in developing and deploying advanced AI models. Passionate about leveraging AI to drive efficiency in financial services, business analytics, and robotics.",
+        aboutme: "Experienced AI/ML Engineer with a background in developing and deploying advanced AI models. Passionate about leveraging AI to drive efficiency in financial services, business analytics and robotics.",
     };
 
     const worktimeline = [
@@ -45,11 +45,11 @@ const logotext = "AMANPREET";
     const services = [
         {
             title: "AI-Powered Business Solutions",
-            description: "Developing AI-driven business models and analytics solutions to optimize decision-making.",
+            description: "Developing AI-driven business models and analytics solutions to optimise decision-making.",
         },
         {
             title: "Machine Learning & Predictive Modeling",
-            description: "Building and deploying ML models for financial forecasting, anomaly detection, and automation.",
+            description: "Building and deploying ML models for financial forecasting, anomaly detection and automation.",
         },
         {
             title: "AI for Robotics & Autonomous Systems",
@@ -65,12 +65,12 @@ const logotext = "AMANPREET";
         },
         {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-23%20214731.jpg?raw=true", // Replace with an actual screenshot URL
-            description: "Weather Forecasting Model - Built an ML model predicting weather patterns with 85% accuracy.",
+            description: "Weather Forecasting Model - Built an ML model predicting weather patterns.",
             link: "https://predict-energy-aman-007.streamlit.app/",
         },
         {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-20%20233833.png?raw=true", // Replace with an actual screenshot URL
-            description: "AI Dashboard App - An interactive Streamlit app for data visualization and AI model insights.",
+            description: "AI Dashboard App - An interactive Streamlit app for data visualisation and AI model insights.",
             link: "https://ipredictionpremium-aman007.streamlit.app/", // Replace with your Streamlit app URL
         },
         {
