@@ -59,17 +59,17 @@ const logotext = "AMANPREET";
 
     const dataportfolio = [
         {
-            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-23%20111226.png?raw=true", // Replace with an actual screenshot URL
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/8ce97337-b164-4190-9c04-b9f9fd2633c7.png?raw=true", // Replace with an actual screenshot URL
             description: "PDF Data Extraction using AI - Automated structured data extraction reducing manual effort by 60%.",
             link: "https://chat-with-your-pdfs-aman-007.streamlit.app/",
         },
         {
-            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-23%20214731.jpg?raw=true", // Replace with an actual screenshot URL
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/ChatGPT%20Image%20Mar%2026%2C%202025%2C%2003_35_18%20PM.png?raw=true", // Replace with an actual screenshot URL
             description: "Weather Forecasting Model - Built an ML model predicting weather patterns.",
             link: "https://predict-energy-aman-007.streamlit.app/",
         },
-        {
-            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/Screenshot%202025-03-20%20233833.png?raw=true", // Replace with an actual screenshot URL
+        {   
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/ChatGPT%20Image%20Mar%2026%2C%202025%2C%2003_37_12%20PM.png?raw=true", // Replace with an actual screenshot URL
             description: "AI Dashboard App - An interactive Streamlit app for data visualisation and AI model insights.",
             link: "https://ipredictionpremium-aman007.streamlit.app/", // Replace with your Streamlit app URL
         },
