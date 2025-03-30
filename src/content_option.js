@@ -12,7 +12,6 @@ const logotext = "AMANPREET";
             third: "Optimising business processes with AI",
         },
         description: "AI enthusiast with 5+ years of IT experience in system integrations, customisations and automation. Specialised in developing AI/ML models for finance, cryptographic AI and robotics optimisation.",
-        your_img_url: "https://github.com/AmanpreetSingh0071.png",
     };
 
     const dataabout = {
@@ -37,9 +36,12 @@ const logotext = "AMANPREET";
         { name: "Python", value: 95 },
         { name: "TensorFlow/Keras", value: 90 },
         { name: "PyTorch", value: 85 },
-        { name: "JavaScript", value: 80 },
-        { name: "React", value: 75 },
-        { name: "R", value: 70 },
+        { name: "LangChain/RAG Pipelines", value: 85 },
+        { name: "HuggingFace Transformers", value: 85 },
+        { name: "Streamlit", value: 85 },
+        { name: "FAISS / Vector Databases", value: 85 },
+        { name: "MLOps (Git, MLflow, Docker)", value: 80 },
+        { name: "R (for statistical analysis)", value: 75 },
     ];
 
     const services = [
@@ -98,7 +100,7 @@ const logotext = "AMANPREET";
     };
 
     const socialprofils = {
-        resume: "https://github.com/AmanpreetSingh0071/Public_Resume/raw/main/CV_Amanpreet.m.Ahluwalia%20(2).pdf", // Added Resume Download Link
+        resume: "https://github.com/AmanpreetSingh0071/Public_Resume/raw/main/Resume_CV_Amanpreet.m.Ahluwalia.pdf", // Added Resume Download Link
         github: "https://github.com/AmanpreetSingh0071",
         linkedin: "https://linkedin.com/in/aman-m-singh",
         twitter: "https://twitter.com/amanpreet_ai",
