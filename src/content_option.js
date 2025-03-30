@@ -91,7 +91,7 @@ const logotext = "AMANPREET";
     ];
     
     const contactConfig = {
-        YOUR_EMAIL: "amanpreet.m.ahluwalia@gmail.com",
+        YOUR_EMAIL: "work.amanpreet.singh@gmail.com",
         YOUR_FONE: "+44 7823705602",
         description: "Feel free to reach out for AI collaborations, research discussions, or consulting opportunities.",
         YOUR_SERVICE_ID: "service_5r6vlo8",
@@ -103,7 +103,7 @@ const logotext = "AMANPREET";
         resume: "https://github.com/AmanpreetSingh0071/Public_Resume/raw/main/Resume_CV_Amanpreet.m.Ahluwalia.pdf", // Added Resume Download Link
         github: "https://github.com/AmanpreetSingh0071",
         linkedin: "https://linkedin.com/in/aman-m-singh",
-        twitter: "https://twitter.com/amanpreet_ai",
+        twitter: "https://x.com/AmanpreetA007",
     };
 
     export {
