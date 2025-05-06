@@ -12,6 +12,7 @@ const logotext = "AMANPREET";
             third: "Optimising business processes with AI",
         },
         description: "AI enthusiast with 5+ years of IT experience in system integrations, customisations and automation. Specialised in developing AI/ML models for finance, cryptographic AI and robotics optimisation.",
+        your_img_url: "https://raw.githubusercontent.com/AmanpreetSingh0071/Aman_portfolio/main/Firefly%20Design%20a%20professional%20LinkedIn%20banner%20for%20an%20AI%20Engineer._Background-%20Dark%20navy%20blue%20to%20deep.JPEG"
     };
 
     const dataabout = {
