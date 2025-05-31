@@ -67,6 +67,16 @@ const logotext = "AMANPREET";
             link: "https://chat-with-your-pdfs-aman-007.streamlit.app/",
         },
         {
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/7F564148-A919-421D-BC53-7DACF82C2427.png?raw=true", // Replace with an actual screenshot URL
+            description: "AI Coach and Memoir Co-Writer.",
+            link: "https://aimemoir.streamlit.app/",
+        },
+        {
+            img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/8785DC46-090E-4614-985B-6F60A02B6770.png?raw=true", // Replace with an actual screenshot URL
+            description: "AI-Job-Search-Tool.",
+            link: "https://autoapplyx-aman-007.streamlit.app/",
+        },
+        {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/ChatGPT%20Image%20Mar%2026%2C%202025%2C%2008_00_30%20PM.png?raw=true", // Replace with an actual screenshot URL
             description: "AI-Powered Audit Report Generator for Businesses.",
             link: "https://audit-report-generator-aman-007.streamlit.app/",
