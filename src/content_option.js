@@ -111,7 +111,7 @@ const logotext = "AMANPREET";
     };
 
     const socialprofils = {
-        resume: "https://github.com/AmanpreetSingh0071/Public_Resume/raw/main/Resume_CV_Amanpreet.M.Ahluwalia.pdf", // Added Resume Download Link
+        resume: "https://github.com/AmanpreetSingh0071/Public_Resume/raw/main/Amanpreet_Ahluwalia_CV.pdf", // Added Resume Download Link
         github: "https://github.com/AmanpreetSingh0071",
         linkedin: "https://linkedin.com/in/aman-m-singh",
         twitter: "https://x.com/AmanpreetA007",
