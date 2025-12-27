@@ -1,23 +1,23 @@
 const logotext = "AMANPREET";
     const meta = {
         title: "Amanpreet Ahluwalia",
-        description: "I’m Amanpreet Ahluwalia, an AI/ML Engineer specialising in AI-driven solutions, financial analytics and predictive modeling.",
+        description: "Enterprise Systems & ERP Consultant specialising in automation, integrations and intelligent monitoring using data-driven techniques.",
     };
 
     const introdata = {
         title: "I’m Amanpreet Ahluwalia",
         animated: {
-            first: "AI & ML Enthusiast",
-            second: "Developing AI-powered solutions",
-            third: "Optimising business processes with AI",
+            first: "Enterprise Systems & ERP Consultant",
+            second: "Automation, Integrations & Intelligent Monitoring",
+            third: "Designing Scalable Business Systems",
         },
-        description: "AI enthusiast with 5+ years of IT experience in system integrations, customisations and automation. Specialised in developing AI/ML models for finance, cryptographic AI and robotics optimisation.",
+        description: "Enterprise systems professional with 7+ years of experience in ERP implementations, integrations, and automation. Experienced in applying data-driven and intelligent techniques to improve reliability, monitoring, and operational efficiency in business systems.",
         your_img_url: "https://raw.githubusercontent.com/AmanpreetSingh0071/Aman_portfolio/main/Firefly%20Design%20a%20professional%20LinkedIn%20banner%20for%20an%20AI%20Engineer._Background-%20Dark%20navy%20blue%20to%20deep.JPEG"
     };
 
     const dataabout = {
         title: "About Me",
-        aboutme: "Experienced AI/ML Engineer with a background in developing and deploying advanced AI models. Passionate about leveraging AI to drive efficiency in financial services, business analytics and robotics.",
+        aboutme: "Enterprise systems and ERP consultant with hands-on experience delivering integrations, automation, and operational solutions across complex business environments. I use data-driven and intelligent techniques where they add practical value, focusing on reliability, scalability, and long-term system efficiency rather than experimentation.",
     };
 
     const worktimeline = [
@@ -34,33 +34,36 @@ const logotext = "AMANPREET";
     ];
 
     const skills = [
-        { name: "Python", value: 95 },
-        { name: "TensorFlow/Keras", value: 90 },
-        { name: "PyTorch", value: 85 },
-        { name: "LangChain/RAG Pipelines", value: 85 },
-        { name: "HuggingFace Transformers", value: 85 },
-        { name: "Streamlit", value: 85 },
-        { name: "FAISS / Vector Databases", value: 85 },
-        { name: "MLOps (Git, MLflow, Docker)", value: 80 },
-        { name: "R (for statistical analysis)", value: 75 },
-    ];
+    { name: "Oracle NetSuite & ERP Systems", value: 95 },
+    { name: "System Integrations (EDI / API)", value: 90 },
+    { name: "Business Process Automation", value: 90 },
+    { name: "Python (Automation & Data Processing)", value: 85 },
+    { name: "ERP Monitoring & Exception Handling", value: 85 },
+    { name: "Data Analysis & Reporting", value: 80 },
+    { name: "AI / ML (Applied to Enterprise Systems)", value: 75 },
+];
 
     const services = [
-        {
-            title: "AI-Powered Business Solutions",
-            description: "Developing AI-driven business models and analytics solutions to optimise decision-making.",
-        },
-        {
-            title: "Machine Learning & Predictive Modeling",
-            description: "Building and deploying ML models for financial forecasting, anomaly detection and automation.",
-        },
-        {
-            title: "AI for Robotics & Autonomous Systems",
-            description: "Developing AI models for robotic process automation and autonomous vehicle simulations.",
-        },
-    ];
+    {
+        title: "Enterprise Systems & ERP Solutions",
+        description: "Designing and delivering scalable ERP systems, integrations, and automation aligned with real-world business operations.",
+    },
+    {
+        title: "Automation & Intelligent Monitoring",
+        description: "Building rule-based and data-driven solutions to improve system reliability, exception handling, and operational visibility.",
+    },
+    {
+        title: "Applied AI for Business Systems",
+        description: "Using AI selectively to enhance automation, forecasting, and monitoring within enterprise and ERP environments.",
+    },
+];
 
     const dataportfolio = [
+        {
+    img: "https://raw.githubusercontent.com/AmanpreetSingh0071/erp-exception-monitoring/main/assets/output_summary.png",
+    description: "ERP Exception Monitoring System – Intelligent monitoring for ERP integrations using rule-based validation and anomaly detection to proactively identify failures, SLA breaches, and abnormal transaction behaviour.",
+    link: "https://github.com/AmanpreetSingh0071/erp-exception-monitoring",
+        },
         {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/8ce97337-b164-4190-9c04-b9f9fd2633c7.png?raw=true", // Replace with an actual screenshot URL
             description: "PDF Data Extraction using AI - Automated structured data extraction reducing manual effort by 60%.",
