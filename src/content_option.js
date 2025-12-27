@@ -60,7 +60,7 @@ const logotext = "AMANPREET";
 
     const dataportfolio = [
         {
-            img: "https://raw.githubusercontent.com/AmanpreetSingh0071/erp-exception-monitoring/main/assets/output_summary.png",
+            img: require("./assets/images/ERP_Image.png"),
             description: "ERP Exception Monitoring System – Intelligent monitoring for ERP integrations using rule-based validation and anomaly detection to proactively identify failures, SLA breaches, and abnormal transaction behaviour.",
             link: "/projects/erp-exception-monitoring",
         },

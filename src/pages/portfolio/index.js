@@ -35,7 +35,7 @@ export const Portfolio = () => {
                   style={{ touchAction: "manipulation", cursor: "pointer" }}
                 ></iframe>
               ) : (
-                <img src={data.img} alt="Project Thumbnail" />
+                <img src={data.img} alt="Project Thumbnail" className="portfolio-thumb" />
               )}
               
               {/* Description and link */}
