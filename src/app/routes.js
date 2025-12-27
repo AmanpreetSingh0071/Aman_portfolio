@@ -7,6 +7,7 @@ import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Portfolio } from "../pages/portfolio"; // Corrected import
+import { ErpExceptionMonitoring } from "../pages/erp-exception-monitoring";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -24,6 +25,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} /> {/* Portfolio Page */}
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/projects/erp-exception-monitoring" element={<ErpExceptionMonitoring />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>
