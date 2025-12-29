@@ -2,7 +2,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://amanpreetsingh0071.github.io/Aman_portfolio",
+    "homepage": ".",
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
         "bootstrap": "^5.2.3",

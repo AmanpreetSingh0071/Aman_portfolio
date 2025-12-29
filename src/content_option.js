@@ -1,3 +1,5 @@
+import ERPImage from "./assets/images/ERP_Image.png";
+
 const logotext = "AMANPREET";
     const meta = {
         title: "Amanpreet Ahluwalia",
@@ -60,9 +62,9 @@ const logotext = "AMANPREET";
 
     const dataportfolio = [
         {
-            img: require("./assets/images/ERP_Image.png"),
+            img: ERPImage,
             description: "ERP Exception Monitoring System – Intelligent monitoring for ERP integrations using rule-based validation and anomaly detection to proactively identify failures, SLA breaches, and abnormal transaction behaviour.",
-            link: "/#/projects/erp-exception-monitoring",
+            link: "#/projects/erp-exception-monitoring",
         },
         {
             img: "https://github.com/AmanpreetSingh0071/Aman_portfolio/blob/main/8ce97337-b164-4190-9c04-b9f9fd2633c7.png?raw=true", // Replace with an actual screenshot URL
