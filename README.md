@@ -1,87 +1,65 @@
-# Amanpreet Ahluwalia – AI Engineer Portfolio 🚀
+# Amanpreet Ahluwalia – Applied AI Engineer (Enterprise Systems)
 
-🔗 **Live Site:** [amanpreetsingh0071.github.io/Aman_portfolio](https://amanpreetsingh0071.github.io/Aman_portfolio)
+Live site: https://amanpreetsingh0071.github.io/Aman_portfolio
 
-A personal portfolio website showcasing my transition from IT to AI/ML engineering — featuring hands-on, production-ready AI projects including LLMs, RAG pipelines, vector databases, and real-world problem solving in energy, healthcare, and finance.
+This portfolio presents applied AI projects focused on automation, anomaly detection, and decision support within enterprise and business-critical systems.
 
----
-
-## 🔍 Projects Featured
-
-### 📄 Chat with Your PDFs – RAG-based AI Assistant  
-**LangChain | FAISS | Streamlit | HuggingFace | Groq | LLMs**  
-A deployed RAG pipeline that allows users to upload PDF documents and query them in real-time using Groq-hosted LLMs with vector search.
-
-### ☀️ PV Output Forecasting App  
-**XGBoost | MLflow | Streamlit | Energy Analytics**  
-Predicts photovoltaic energy output using real-time solar weather data and regression models. Includes a clean interactive UI.
-
-### 🏥 Health Insurance Cost Predictor  
-**scikit-learn | Streamlit | Regression**  
-Estimates insurance premium charges based on lifestyle, BMI, and region using classical ML. End-to-end deployed.
-
-### 📊 Business Audit Report Generator (LLM-powered)  
-**Groq | Streamlit | Data Extraction | JSON Structuring**  
-Fetches company data in real-time and generates structured audit reports using LLMs. Built for scalable due diligence automation.
+My background includes 7+ years working with ERP, finance, and operational platforms, now combined with hands-on delivery of production-ready AI and ML solutions. The projects here prioritise reliability, data quality, and real-world constraints rather than experimental demos.
 
 ---
 
-## 💡 Features
+## Selected Projects
 
-- 📱 Fully responsive React layout
-- 📁 Multi-project live deployment
-- ✍️ One-stop config via `src/content_option.js`
-- 🎨 Clean, modern dark UI
-- 🔗 GitHub, LinkedIn, and CV integration
-- 💌 Contact section with embedded mailto
+### AI-Driven ERP Monitoring & Anomaly Detection
+Enterprise monitoring system applying rule-based validation and ML-assisted anomaly detection to identify integration failures, SLA breaches, and abnormal transactional behaviour.
+
+**Focus:** Production reliability, monitoring, operational intelligence
 
 ---
 
-## 🛠️ Tech Stack
+### RAG-Based Document Intelligence System
+LLM-powered document assistant using embeddings and semantic search to enable natural-language querying over business and enterprise documents.
 
-- **React JS**
-- **Streamlit (for project deployments)**
-- **Vercel & GitHub Pages (Hosting)**
-- **LangChain**, **HuggingFace**, **FAISS**, **OpenAI**, **Groq**
-- **MLflow**, **scikit-learn**, **XGBoost**
+**Focus:** Knowledge retrieval, decision support, enterprise usability
 
 ---
 
-## 📦 Setup
+### Business Audit Report Generator (LLM-Based)
+Automated audit and due-diligence reporting system using structured data extraction and LLM-based synthesis.
 
-Clone the repo:
-
-```bash
-git clone https://github.com/AmanpreetSingh0071/Aman_portfolio.git
-cd Aman_portfolio
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the app:
-
-```bash
-npm start
-```
-
-Update content from a single config:
-
-```bash
-src/content_option.js
-```
+**Focus:** Business automation, structured outputs, reliability
 
 ---
 
-## 🙏 Acknowledgements
+### Predictive Analytics – Operational Forecasting
+Regression-based ML models for forecasting operational outputs using historical and environmental data, with evaluation against business-relevant metrics.
 
-This portfolio was originally adapted from [ubaimutl/react-portfolio](https://github.com/ubaimutl/react-portfolio) and extended for showcasing full-stack AI project deployments.
+**Focus:** Applied ML, forecasting, model evaluation
+
+---
+
+## Technical Scope
+
+- Applied machine learning (regression, classification, anomaly detection)
+- LLM-based systems (RAG, embeddings, semantic search)
+- Python backend services and APIs
+- Data validation, monitoring, and automation
+- Enterprise context: ERP, finance, operations
 
 ---
 
-### ⭐ If you find this useful or inspiring, feel free to give it a star!
+## Purpose of This Portfolio
+
+This site is intended to demonstrate:
+- Applied AI thinking in production contexts
+- Ability to integrate AI into existing business systems
+- Focus on reliability, clarity, and measurable outcomes
+
+It is not a tutorial repository or experimental playground.
 
 ---
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/aman-m-singh  
+GitHub: https://github.com/AmanpreetSingh0071
